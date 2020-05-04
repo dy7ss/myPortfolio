@@ -15,6 +15,11 @@ div.headerText {
   line-height: normal;
 }
 
+h2.headline {
+  font-family: cursive;
+  font-size: 250%;
+}
+
 div.feature {
   display: inline-block;
   width: 300px;
@@ -24,7 +29,7 @@ div.feature {
 article.featureBlock {
   background-image: url("y-so-serious-white.png");
   /* background-color: skyblue; */
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -257,5 +262,158 @@ article p {
 }
 
 #modal4.hidden {
+  transform: translate(0, -1000px);
+}
+
+/* ここまでobj4 */
+
+#open5,
+#close5 {
+  cursor: pointer;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 12px;
+  margin: 16px auto 0;
+  background: #4caf50;
+  color: white;
+}
+#mask5 {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#modal5 {
+  background: #fff;
+  color: #555;
+  width: 70%;
+  padding: 40px;
+  border-radius: 4px;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 2;
+  transition: 0.4s;
+}
+
+#modal5 p {
+  margin: 0 0 20px;
+}
+
+#mask5.hidden {
+  display: none;
+}
+
+#modal5.hidden {
+  transform: translate(0, -1000px);
+}
+
+/* ここまでobj5 */
+
+#open6,
+#close6 {
+  cursor: pointer;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 12px;
+  margin: 16px auto 0;
+  background: #4caf50;
+  color: white;
+}
+#mask6 {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#modal6 {
+  background: #fff;
+  color: #555;
+  width: 70%;
+  padding: 40px;
+  border-radius: 4px;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 2;
+  transition: 0.4s;
+}
+
+#modal6 p {
+  margin: 0 0 20px;
+}
+
+#mask6.hidden {
+  display: none;
+}
+
+#modal6.hidden {
+  transform: translate(0, -1000px);
+}
+
+/* ここまでobj6 */
+
+#open7,
+#close7 {
+  cursor: pointer;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 12px;
+  margin: 16px auto 0;
+  background: #4caf50;
+  color: white;
+}
+#mask7 {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#modal7 {
+  background: #fff;
+  color: #555;
+  width: 70%;
+  padding: 40px;
+  border-radius: 4px;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 2;
+  transition: 0.4s;
+}
+
+#modal7 p {
+  margin: 0 0 20px;
+}
+
+#mask7.hidden {
+  display: none;
+}
+
+#modal7.hidden {
   transform: translate(0, -1000px);
 }

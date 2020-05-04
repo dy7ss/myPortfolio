@@ -26,11 +26,26 @@ obj4 = {
   mask: document.getElementById("mask4"),
 };
 
-// const open = document.getElementById("open");
-// const close = document.getElementById("close");
-// const modal = document.getElementById("modal");
-// const mask = document.getElementById("mask");
-// const dest = document.getElementById("desc"); // <- 表示させたい文章のp
+obj5 = {
+  open: document.getElementById("open5"),
+  close: document.getElementById("close5"),
+  modal: document.getElementById("modal5"),
+  mask: document.getElementById("mask5"),
+};
+
+obj6 = {
+  open: document.getElementById("open6"),
+  close: document.getElementById("close6"),
+  modal: document.getElementById("modal6"),
+  mask: document.getElementById("mask6"),
+};
+
+obj7 = {
+  open: document.getElementById("open7"),
+  close: document.getElementById("close7"),
+  modal: document.getElementById("modal7"),
+  mask: document.getElementById("mask7"),
+};
 
 function event(open, close, modal, mask) {
   open.addEventListener("click", function () {
@@ -51,3 +66,6 @@ event(obj1.open, obj1.close, obj1.modal, obj1.mask);
 event(obj2.open, obj2.close, obj2.modal, obj2.mask);
 event(obj3.open, obj3.close, obj3.modal, obj3.mask);
 event(obj4.open, obj4.close, obj4.modal, obj4.mask);
+event(obj5.open, obj5.close, obj5.modal, obj5.mask);
+event(obj6.open, obj6.close, obj6.modal, obj6.mask);
+event(obj7.open, obj7.close, obj7.modal, obj7.mask);
