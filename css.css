@@ -129,7 +129,7 @@ article p {
 }
 
 #modal1.hidden {
-  transform: translate(0, -1000px);
+  transform: translate(0, -2000px);
 }
 
 /* ここまでobj1用 */
@@ -180,7 +180,7 @@ article p {
 }
 
 #modal2.hidden {
-  transform: translate(0, -1000px);
+  transform: translate(0, -2000px);
 }
 
 /* ここまでobje2 */
@@ -231,7 +231,7 @@ article p {
 }
 
 #modal3.hidden {
-  transform: translate(0, -1000px);
+  transform: translate(0, -2000px);
 }
 
 /* ここまでobj3 */
@@ -282,7 +282,7 @@ article p {
 }
 
 #modal4.hidden {
-  transform: translate(0, -1000px);
+  transform: translate(0, -2000px);
 }
 
 /* ここまでobj4 */
@@ -333,7 +333,7 @@ article p {
 }
 
 #modal5.hidden {
-  transform: translate(0, -1000px);
+  transform: translate(0, -2000px);
 }
 
 /* ここまでobj5 */
@@ -384,7 +384,7 @@ article p {
 }
 
 #modal6.hidden {
-  transform: translate(0, -1000px);
+  transform: translate(0, -2000px);
 }
 
 /* ここまでobj6 */
@@ -435,5 +435,5 @@ article p {
 }
 
 #modal7.hidden {
-  transform: translate(0, -1000px);
+  transform: translate(0, -2000px);
 }
