@@ -61,12 +61,6 @@ article.works {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-article.link {
-  background-image: url("y-so-serious-white.png");
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
 /* Featureのテキストだよ */
 div.featureText {
@@ -112,7 +106,7 @@ article p {
 #modal1 {
   background: #fff;
   color: #555;
-  width: 600px;
+  width: 70%;
   padding: 40px;
   border-radius: 4px;
   position: fixed;
@@ -163,7 +157,7 @@ article p {
 #modal2 {
   background: #fff;
   color: #555;
-  width: 600px;
+  width: 70%;
   padding: 40px;
   border-radius: 4px;
   position: fixed;
@@ -214,7 +208,7 @@ article p {
 #modal3 {
   background: #fff;
   color: #555;
-  width: 600px;
+  width: 70%;
   padding: 40px;
   border-radius: 4px;
   position: fixed;
@@ -265,7 +259,7 @@ article p {
 #modal4 {
   background: #fff;
   color: #555;
-  width: 600px;
+  width: 70%;
   padding: 40px;
   border-radius: 4px;
   position: fixed;
