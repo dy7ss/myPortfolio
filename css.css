@@ -9,10 +9,12 @@ div.headerSpace {
   text-align: center;
 }
 div.headerText {
-  color: white; /*テスト用いろかえ*/
-  display: inline-block;
+  margin-top: 100px;
   vertical-align: middle;
   line-height: normal;
+  text-align: center;
+  font-family: cursive;
+  font-size: 200%;
 }
 
 h2.headline {
@@ -35,7 +37,7 @@ article.featureBlock {
 }
 article.profile {
   background-color: white;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
   text-align: center;
 }
