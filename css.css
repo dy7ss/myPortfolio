@@ -30,25 +30,49 @@ article.featureBlock {
   background-image: url("y-so-serious-white.png");
   /* background-color: skyblue; */
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   text-align: center;
 }
 article.profile {
   background-color: white;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+article.skillset {
+  /* background-image: url("y-so-serious-white.png"); */
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+article.til {
+  background-image: url("y-so-serious-white.png");
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
 }
 
 article.works {
-  /* background-image: url("y-so-serious-white.png"); */
+  background-color: white;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+article.link {
+  background-image: url("y-so-serious-white.png");
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* Featureのテキストだよ */
 div.featureText {
   width: 200px;
-  background-color: white;
+  /* background-color: white; */
+  background-image: url("y-so-serious-white.png");
   padding: 30px;
   margin: auto;
 }
