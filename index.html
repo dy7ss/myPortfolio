@@ -33,11 +33,11 @@
         日々の学習で心がけていることをご紹介します。
       </p>
       <div class="feature">
-        <div id="open1">
+        <div id="open1" class="open">
           <h3>低レイヤーを大事に</h3>
         </div>
-        <div id="mask1" class="hidden"></div>
-        <section id="modal1" class="hidden">
+        <div id="mask1" class="hidden mask"></div>
+        <section id="modal1" class="modal hidden">
           <h4>低レイヤーを大事に</h4>
           <p>
             高度なフレームワークを使っていても、想定外の不具合が発生した際に原因が追求できないのは問題だと考えます。<br />
@@ -45,35 +45,35 @@
             BootStrapやJQueryの学習の前に、CSSとJavaScriptの知識を深める。<br />
             どういう仕組みでそれが動くのか、中身を意識しながら学習しています。
           </p>
-          <div id="close1">
+          <div id="close1" class="close">
             閉じる
           </div>
         </section>
       </div>
       <div class="feature">
-        <div id="open2">
+        <div id="open2" class="open">
           <h3>他の解決手段も模索</h3>
         </div>
-        <div id="mask2" class="hidden"></div>
-        <section id="modal2" class="hidden">
+        <div id="mask2" class="hidden mask"></div>
+        <section id="modal2" class="modal hidden">
           <h4>他の解決手段も模索</h4>
           <p>
             特に競技プログラミングのような、アルゴリズム問題を解く時に心がけていることです。<br />
             より短いソースコードにできないか、他のアプローチ方法はないかを考え、<br />
             一度で二度おいしい経験になるように学習しています。
           </p>
-          <div id="close2">
+          <div id="close2" class="close">
             閉じる
           </div>
         </section>
       </div>
       <br />
       <div class="feature">
-        <div id="open3">
+        <div id="open3" class="open">
           <h3>積極的なアウトプット</h3>
         </div>
-        <div id="mask3" class="hidden"></div>
-        <section id="modal3" class="hidden">
+        <div id="mask3" class="hidden mask"></div>
+        <section id="modal3" class="modal hidden">
           <h4>積極的なアウトプット</h4>
           <p>
             特にGithubにおいて、とにかく得た知識を記録する癖をつけています。<br />
@@ -83,17 +83,17 @@
             アルゴリズムクイズの解答に使った関数、テキストのサンプルコードを改変したものまで、<br />
             なるべく多くの情報を載せるようにしています。<br />
           </p>
-          <div id="close3">
+          <div id="close3" class="close">
             閉じる
           </div>
         </section>
       </div>
       <div class="feature">
-        <div id="open4">
+        <div id="open4" class="open">
           <h3>解決に導きやすい質問</h3>
         </div>
-        <div id="mask4" class="hidden"></div>
-        <section id="modal4" class="hidden">
+        <div id="mask4" class="hidden mask"></div>
+        <section id="modal4" class="modal hidden">
           <p>
             <h4>解決に導きやすい質問</h4>
             学習で行き詰まったことを尋ねるとき、相手が分からない情報をなるべく伝えるようにします。<br />
@@ -102,7 +102,7 @@
             これを添えることで、「困った部分に対する解決法」ではなく、<br />
             「そもそもの目的を達成する、よりよい別のアプローチ」を提示される可能性が出てくると考えています。<br />
           </p>
-          <div id="close4">
+          <div id="close4" class="close">
             閉じる
           </div>
         </section>
@@ -121,8 +121,8 @@
       Java, Python, Node.js, MariaDB(MySQL),Servlet & JSP<br /><br />
 
       IDE<br />
-      Eclipse(Java), PyCharm(Python),<br />
-      Visual Studio Code(Java, Python, Node.js, HTML, CSS, JavaScript)<br /><br />
+      Eclipse, PyCharm,<br />
+      Visual Studio Code<br /><br />
 
       Others<br />
       XAMMP(MariaDB), MarkDown記法, ScrapBox, Github<br />
@@ -140,7 +140,7 @@
         といった具合に使い分けています。<br /><br />
 
         各サイトへのリンクをご用意しました。興味をもたれましたらぜひご覧ください。<br />
-        (ScrapBoxは閲覧制限をかけ、個人情報を含めて管理している都合上、公開はご容赦下さい)<br /><br />
+        (ScrapBoxは多岐にわたるジャンルを一元管理しているため、閲覧制限をかけております。公開はご容赦下さい)<br /><br />
 
         <a href="https://github.com/shin1127/" target="_blank">Github</a><br />
 
@@ -160,12 +160,13 @@
       </p>
 
       <!-- ここからボタン処理に変更化テスト -->
-      <div id="open5">
+      <div id="open5" class="open">
         <h3>自販機システム</h3>
       </div>
-      <div id="mask5" class="hidden"></div>
-      <section id="modal5" class="hidden">
+      <div id="mask5" class="hidden mask"></div>
+      <section id="modal5" class="hidden modal">
         <p>
+          <h3>自販機システム</h3>
           コンソール上で動作する、飲料水の自販機を模したプログラム。<br />
           標準入力(Scannerクラス)と例外処理(try-catch文)を組み合わせたループ処理の実装に特に苦労しました。<br />
           文法やオブジェクト指向の入門書を1冊読み込んだ上での初めてのJavaプログラミングだったので、<br />
@@ -175,7 +176,7 @@
             >こちら</a
           ><br /><br />
           画像は動作するプログラムの様子です。<br />
-          コンソール上に対応した数字を入力することで、お金や飲料水のやりとりが仮想的に実行できます。<br />
+          コンソール上に対応した数字を入力することで、お金や飲料水のやりとりが仮想的に実行できます。<br /><br>
           <img
             src="vendingMachineEx1.png"
             alt="自販機システム 例1"
@@ -183,20 +184,21 @@
             height="50%"
           />
         </p>
-        <div id="close5">
+        <div id="close5" class="close">
           閉じる
         </div>
       </section>
 
-      <div id="open6">
+      <div id="open6" class="open">
         <h3>処理速度比較</h3>
       </div>
-      <div id="mask6" class="hidden"></div>
-      <section id="modal6" class="hidden">
+      <div id="mask6" class="hidden mask"></div>
+      <section id="modal6" class="hidden modal">
         <p>
+          <h3>処理速度比較</h3>
           コンパイラ言語とインタプリタ言語の処理速度を比較するプログラム。<br />
           JavaとPythonで加算処理・円周率近似をそれぞれ実行し、テキストファイルに実行時間の生データや平均値を出力します。<br />
-          2言語間で行う処理を同一にすることに神経を使いました。<br />
+          2言語間で行う処理を同一にすることに神経を使いました。<br /><br>
           例えば、Pythonのfloat型は特に断りのない場合、64ビットの浮動小数点数表現であることに注意すると、<br />
           Javaで同一の処理を行うためには、float型ではなくdouble型で計算を行う必要があります。<br />
           Javaでなんとなく使っていたプリミティブ型について、知識を深めることができました。<br />
@@ -209,7 +211,7 @@
           <br />
 
           <br />
-          左の画像がターミナル上での出力、右がテキストに結果を出力した様子です。
+          左の画像がターミナル上での出力、右がテキストに結果を出力した様子です。<br><br>
 
           <img
             src="speedTestEx2.png"
@@ -224,34 +226,36 @@
             height="25%"
           />
         </p>
-        <div id="close6">
+        <div id="close6" class="close">
           閉じる
         </div>
       </section>
 
-      <div id="open7">
+      <div id="open7" class="open">
         <h3>ポートフォリオサイト</h3>
       </div>
-      <div id="mask7" class="hidden"></div>
-      <section id="modal7" class="hidden">
+      <div id="mask7" class="hidden mask"></div>
+      <section id="modal7" class="hidden modal">
         <p>
+          <h3>ポートフォリオサイト</h3>
           当ページです。<br />
           JavaScriptを使ったウェブサイト制作としては処女作です。<br />
-          BootStrapやJQueryに頼らず生で書き切った所が特徴です。<br />
-          また、テンプレートなどを利用せずデザインから実際のコーディングまで制作しました。<br /><br />
-          JavaScriptによるボタン処理を複数個実装する際、それに必要なjsファイルの中身が冗長にならないように工夫しています。<br />
-          具体的には、変数をそれぞれ対応するオブジェクトに格納、ボタン処理に必要な関数を1つの関数にまとめました。<br />
-          一方でCSSのソースコードは非常に冗長で、IDやCLASSの理解を深めてリファクタリングに努める必要があると感じています。<br /><br />
+          BootStrapやJQueryなどのライブラリに頼らず、生で書き切った所が特徴です。<br /><br>
+          ボタン処理を複数個実装する際、それに必要なcss,jsファイルの中身が冗長にならないように工夫しています。<br />
+          具体的には、変数をそれぞれ対応するオブジェクトに格納したほか、ボタン処理に必要な複数の関数を1つの関数にまとめました。<br /><br>
 
-          制作に使った初期のデザインカンプを記載します。<br />
+          <s>一方でCSSのソースコードは非常に冗長で、IDやCLASSの理解を深めてリファクタリングに努める必要があると感じています。</s><br />
+          リファクタリングしました。<br /><br>
+
+          制作に使った初期のデザインカンプを記載します。<br /><br>
           <img
             src="designCamp.jpg"
             alt="デザインカンプ"
-            width="70%"
-            height="70%"
+            width="90%"
+            height="90%"
           />
         </p>
-        <div id="close7">
+        <div id="close7" class="close">
           閉じる
         </div>
       </section>

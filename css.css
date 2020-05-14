@@ -83,8 +83,8 @@ article p {
 
 /* ここからコピペ */
 
-#open1,
-#close1 {
+div.open,
+div.close {
   cursor: pointer;
   width: 200px;
   border: 1px solid #ccc;
@@ -95,7 +95,7 @@ article p {
   background: #4caf50;
   color: white;
 }
-#mask1 {
+div.mask {
   background: rgba(0, 0, 0, 0.4);
   position: fixed;
   top: 0;
@@ -105,7 +105,7 @@ article p {
   z-index: 1;
 }
 
-#modal1 {
+section.modal {
   background: #fff;
   color: #555;
   width: 70%;
@@ -118,322 +118,18 @@ article p {
   margin: 0 auto;
   z-index: 2;
   transition: 0.4s;
+  overflow-y: auto;
+  max-height: 80%;
 }
 
-#modal1 p {
+section.modal p {
   margin: 0 0 20px;
 }
 
-#mask1.hidden {
+div.mask.hidden {
   display: none;
 }
 
-#modal1.hidden {
-  transform: translate(0, -2000px);
-}
-
-/* ここまでobj1用 */
-
-#open2,
-#close2 {
-  cursor: pointer;
-  width: 200px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: center;
-  padding: 12px;
-  margin: 16px auto 0;
-  background: #4caf50;
-  color: white;
-}
-#mask2 {
-  background: rgba(0, 0, 0, 0.4);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
-}
-
-#modal2 {
-  background: #fff;
-  color: #555;
-  width: 70%;
-  padding: 40px;
-  border-radius: 4px;
-  position: fixed;
-  top: 40px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 2;
-  transition: 0.4s;
-}
-
-#modal2 p {
-  margin: 0 0 20px;
-}
-
-#mask2.hidden {
-  display: none;
-}
-
-#modal2.hidden {
-  transform: translate(0, -2000px);
-}
-
-/* ここまでobje2 */
-
-#open3,
-#close3 {
-  cursor: pointer;
-  width: 200px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: center;
-  padding: 12px;
-  margin: 16px auto 0;
-  background: #4caf50;
-  color: white;
-}
-#mask3 {
-  background: rgba(0, 0, 0, 0.4);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
-}
-
-#modal3 {
-  background: #fff;
-  color: #555;
-  width: 70%;
-  padding: 40px;
-  border-radius: 4px;
-  position: fixed;
-  top: 40px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 2;
-  transition: 0.4s;
-}
-
-#modal3 p {
-  margin: 0 0 20px;
-}
-
-#mask3.hidden {
-  display: none;
-}
-
-#modal3.hidden {
-  transform: translate(0, -2000px);
-}
-
-/* ここまでobj3 */
-
-#open4,
-#close4 {
-  cursor: pointer;
-  width: 200px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: center;
-  padding: 12px;
-  margin: 16px auto 0;
-  background: #4caf50;
-  color: white;
-}
-#mask4 {
-  background: rgba(0, 0, 0, 0.4);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
-}
-
-#modal4 {
-  background: #fff;
-  color: #555;
-  width: 70%;
-  padding: 40px;
-  border-radius: 4px;
-  position: fixed;
-  top: 40px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 2;
-  transition: 0.4s;
-}
-
-#modal4 p {
-  margin: 0 0 20px;
-}
-
-#mask4.hidden {
-  display: none;
-}
-
-#modal4.hidden {
-  transform: translate(0, -2000px);
-}
-
-/* ここまでobj4 */
-
-#open5,
-#close5 {
-  cursor: pointer;
-  width: 200px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: center;
-  padding: 12px;
-  margin: 16px auto 0;
-  background: #4caf50;
-  color: white;
-}
-#mask5 {
-  background: rgba(0, 0, 0, 0.4);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
-}
-
-#modal5 {
-  background: #fff;
-  color: #555;
-  width: 70%;
-  padding: 40px;
-  border-radius: 4px;
-  position: fixed;
-  top: 40px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 2;
-  transition: 0.4s;
-}
-
-#modal5 p {
-  margin: 0 0 20px;
-}
-
-#mask5.hidden {
-  display: none;
-}
-
-#modal5.hidden {
-  transform: translate(0, -2000px);
-}
-
-/* ここまでobj5 */
-
-#open6,
-#close6 {
-  cursor: pointer;
-  width: 200px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: center;
-  padding: 12px;
-  margin: 16px auto 0;
-  background: #4caf50;
-  color: white;
-}
-#mask6 {
-  background: rgba(0, 0, 0, 0.4);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
-}
-
-#modal6 {
-  background: #fff;
-  color: #555;
-  width: 70%;
-  padding: 40px;
-  border-radius: 4px;
-  position: fixed;
-  top: 40px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 2;
-  transition: 0.4s;
-}
-
-#modal6 p {
-  margin: 0 0 20px;
-}
-
-#mask6.hidden {
-  display: none;
-}
-
-#modal6.hidden {
-  transform: translate(0, -2000px);
-}
-
-/* ここまでobj6 */
-
-#open7,
-#close7 {
-  cursor: pointer;
-  width: 200px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: center;
-  padding: 12px;
-  margin: 16px auto 0;
-  background: #4caf50;
-  color: white;
-}
-#mask7 {
-  background: rgba(0, 0, 0, 0.4);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
-}
-
-#modal7 {
-  background: #fff;
-  color: #555;
-  width: 70%;
-  padding: 40px;
-  border-radius: 4px;
-  position: fixed;
-  top: 40px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 2;
-  transition: 0.4s;
-}
-
-#modal7 p {
-  margin: 0 0 20px;
-}
-
-#mask7.hidden {
-  display: none;
-}
-
-#modal7.hidden {
+section.modal.hidden {
   transform: translate(0, -2000px);
 }
