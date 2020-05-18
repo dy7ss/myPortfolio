@@ -86,7 +86,7 @@ article p {
 div.open,
 div.close {
   cursor: pointer;
-  width: 200px;
+  width: 250px;
   border: 1px solid #ccc;
   border-radius: 4px;
   text-align: center;
