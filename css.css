@@ -3,11 +3,20 @@ header {
   background-color: black;
 }
 header img {
-  max-width: 1024px;
   margin-top: 20px;
   margin-left: 3%;
   margin-right: 3%;
   border-radius: 10px;
+}
+@media all and (max-width: 1024px) {
+  header img {
+    width: 100%;
+  }
+}
+@media all and (min-width: 1024px) {
+  header img {
+    max-width: 1024px;
+  }
 }
 
 body {
