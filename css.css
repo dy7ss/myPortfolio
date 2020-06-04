@@ -57,13 +57,13 @@ article.til {
   text-align: center;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
   img.github {
     width: 90%;
     height: 90%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media all and (min-width: 1024px) {
 }
 
 article.works {
