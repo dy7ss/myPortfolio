@@ -1,13 +1,24 @@
 header {
-  background-image: url("profileImg.jpeg");
-  background-size: cover;
-  height: 600px;
+  text-align: center;
+  background-color: black;
+}
+header img {
+  max-width: 1024px;
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
 }
 
-div.headerSpace {
-  line-height: 300px;
-  text-align: center;
+body {
+  margin: -8px;
 }
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 div.headerText {
   margin-top: 100px;
   vertical-align: middle;
@@ -55,15 +66,6 @@ article.til {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
-}
-
-@media all and (max-width: 1024px) {
-  img.github {
-    width: 90%;
-    height: 90%;
-  }
-}
-@media all and (min-width: 1024px) {
 }
 
 article.works {
