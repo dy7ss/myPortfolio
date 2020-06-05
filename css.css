@@ -44,12 +44,9 @@ h2.headline {
 div.feature {
   display: inline-block;
   width: 300px;
-
-  /* background-color: skyblue; 変更場所がわかりやすいように背景色をかえとく */
 }
 article.featureBlock {
   background-image: url("y-so-serious-white.png");
-  /* background-color: skyblue; */
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
@@ -62,7 +59,6 @@ article.profile {
 }
 
 article.skillset {
-  /* background-image: url("y-so-serious-white.png"); */
   background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -75,7 +71,6 @@ table {
   text-align: left;
   vertical-align: top;
 }
-/* table tr, */
 table th,
 table td {
   border: solid 1px black;
@@ -86,6 +81,7 @@ table th {
 }
 table td {
   text-align: center;
+  padding: 5px;
 }
 
 table tr {
@@ -107,24 +103,19 @@ article.works {
   padding-bottom: 100px;
 }
 
-/* Featureのテキストだよ */
 div.featureText {
   width: 200px;
-  /* background-color: white; */
   background-image: url("y-so-serious-white.png");
   padding: 30px;
   margin: auto;
 }
 
-/* Featureのタイトルだよ */
 div h3 {
   text-align: center;
 }
 article p {
   line-height: 2;
 }
-
-/* ここからコピペ */
 
 div.open,
 div.close {
