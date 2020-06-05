@@ -69,6 +69,29 @@ article.skillset {
   text-align: center;
 }
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  vertical-align: top;
+}
+/* table tr, */
+table th,
+table td {
+  border: solid 1px black;
+}
+table th {
+  text-align: left;
+}
+table td {
+  text-align: center;
+}
+
+table tr {
+  vertical-align: center;
+  padding-right: 3px;
+}
+
 article.til {
   background-image: url("y-so-serious-white.png");
   padding-top: 100px;
