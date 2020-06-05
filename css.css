@@ -82,6 +82,7 @@ table td {
 }
 table th {
   text-align: left;
+  background-color: #eeeeee;
 }
 table td {
   text-align: center;
