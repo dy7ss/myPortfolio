@@ -1,0 +1,27 @@
+body {
+  padding: 1vw;
+  background-image: url("../moroccan-flower.png");
+}
+
+/* .float {
+  float: right;
+  text-align: left;
+} */
+iframe {
+  margin: 10px;
+}
+
+iframe.slide {
+  width: 600px;
+  height: 500px;
+  float: left;
+}
+
+.sorce {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+}
