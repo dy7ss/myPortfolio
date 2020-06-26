@@ -198,233 +198,250 @@
         より詳しい制作背景や制作の過程で得た知見は、対応するGithubリポジトリのREADME.mdをご覧ください。
       </p>
 
-      <div id="open5" class="open">
-        <h3>自販機システム</h3>
-      </div>
-      <div id="mask5" class="hidden mask"></div>
-      <section id="modal5" class="hidden modal">
-        <p></p>
-        <h3>自販機システム</h3>
-        コンソール上で動作する、飲料水の自販機を模したプログラム。<br />
-        標準入力(Scannerクラス)と例外処理(try-catch文)を組み合わせたループ処理の実装に特に苦労しました。<br />
-        なぜ不具合が起きるのかが分からず、何時間も考え込んだり、<br />
-        「こういう理由で不具合が起きていたんだろう！」「こうしたら動いた！」<br />
-        となっても、実は数カ月後に「いやそうじゃなくて、実は内部ではこういう挙動が起きていているから、そういう理解ではおかしいよね」<br />
-        と、数ヶ月の時間をおいてようやく本質的な理解を得たり。<br /><br />
-        文法やオブジェクト指向の入門書を1冊読み込んだ上での初めてのJavaプログラミングだったので、<br />
-        クラスの切り分けやメソッドの作成、変数の命名法、デバッグ作業、IDEの操作方法などあらゆる面で学びがありました。<br /><br />
+      <div class="workRow">
+        <div class="work">
+          <div id="open5" class="open">
+            <h3>自販機システム</h3>
+          </div>
+          <div id="mask5" class="hidden mask"></div>
+          <section id="modal5" class="hidden modal">
+            <p></p>
+            <h3>自販機システム</h3>
+            コンソール上で動作する、飲料水の自販機を模したプログラム。<br />
+            標準入力(Scannerクラス)と例外処理(try-catch文)を組み合わせたループ処理の実装に特に苦労しました。<br />
+            なぜ不具合が起きるのかが分からず、何時間も考え込んだり、<br />
+            「こういう理由で不具合が起きていたんだろう！」「こうしたら動いた！」<br />
+            となっても、実は数カ月後に「いやそうじゃなくて、実は内部ではこういう挙動が起きていているから、そういう理解ではおかしいよね」<br />
+            と、数ヶ月の時間をおいてようやく本質的な理解を得たり。<br /><br />
+            文法やオブジェクト指向の入門書を1冊読み込んだ上での初めてのJavaプログラミングだったので、<br />
+            クラスの切り分けやメソッドの作成、変数の命名法、デバッグ作業、IDEの操作方法などあらゆる面で学びがありました。<br /><br />
 
-        列挙型の導入など、後に自分でカスタマイズしているものの、<br />
-        初期の要件定義はJavaのエンジニアの友人に提供してもらい、<br />
-        それに沿ってコーディングを行いました。<br /><br />
+            列挙型の導入など、後に自分でカスタマイズしているものの、<br />
+            初期の要件定義はJavaのエンジニアの友人に提供してもらい、<br />
+            それに沿ってコーディングを行いました。<br /><br />
 
-        Githubリポジトリは
-        <a href="https://github.com/shin1127/VendingMachine" target="_blank"
-          >こちら</a
-        ><br /><br />
-        画像は動作するプログラムの様子です。<br />
-        コンソール上に対応した数字を入力することで、お金や飲料水のやりとりが仮想的に実行できます。<br /><br />
-        <img
-          src="vendingMachineEx1.png"
-          alt="自販機システム 例1"
-          width="50%"
-          height="50%"
-        />
+            Githubリポジトリは
+            <a href="https://github.com/shin1127/VendingMachine" target="_blank"
+              >こちら</a
+            ><br /><br />
+            画像は動作するプログラムの様子です。<br />
+            コンソール上に対応した数字を入力することで、お金や飲料水のやりとりが仮想的に実行できます。<br /><br />
+            <img
+              src="vendingMachineEx1.png"
+              alt="自販機システム 例1"
+              width="50%"
+              height="50%"
+            />
 
-        <div id="close5" class="close">
-          閉じる
+            <div id="close5" class="close">
+              閉じる
+            </div>
+          </section>
         </div>
-      </section>
 
-      <div id="open6" class="open">
-        <h3>処理速度比較</h3>
-      </div>
-      <div id="mask6" class="hidden mask"></div>
-      <section id="modal6" class="hidden modal">
-        <p></p>
-        <h3>処理速度比較</h3>
-        コンパイラ言語とインタプリタ言語の処理速度を比較するプログラム。<br />
-        JavaとPythonで加算処理・円周率近似をそれぞれ実行し、テキストファイルに実行時間の生データや平均値を出力します。<br />
-        2言語間で行う処理を同一にすることに神経を使いました。<br /><br />
-        例えば、Pythonのfloat型は特に断りのない場合、64ビットの浮動小数点数表現であることに注意すると、<br />
-        Javaで同一の処理を行うためには、float型ではなくdouble型で計算を行う必要があります。<br />
-        Javaでなんとなく使っていたプリミティブ型について、知識を深めることができました。<br /><br />
+        <div class="work">
+          <div id="open6" class="open">
+            <h3>処理速度比較</h3>
+          </div>
+          <div id="mask6" class="hidden mask"></div>
+          <section id="modal6" class="hidden modal">
+            <p></p>
+            <h3>処理速度比較</h3>
+            コンパイラ言語とインタプリタ言語の処理速度を比較するプログラム。<br />
+            JavaとPythonで加算処理・円周率近似をそれぞれ実行し、テキストファイルに実行時間の生データや平均値を出力します。<br />
+            2言語間で行う処理を同一にすることに神経を使いました。<br /><br />
+            例えば、Pythonのfloat型は特に断りのない場合、64ビットの浮動小数点数表現であることに注意すると、<br />
+            Javaで同一の処理を行うためには、float型ではなくdouble型で計算を行う必要があります。<br />
+            Javaでなんとなく使っていたプリミティブ型について、知識を深めることができました。<br /><br />
 
-        マシン性能などもあるのでしょうが、Javaではコンマ何秒で処理できるものがPythonだと分単位で処理されるなど、<br />
-        自分としては驚くべき結果が出たので、コンパイラ言語・インタプリタ言語をともに学び、<br />
-        必要に応じて使い分けられるようになることは大切だと強く感じました。<br />
+            マシン性能などもあるのでしょうが、Javaではコンマ何秒で処理できるものがPythonだと分単位で処理されるなど、<br />
+            自分としては驚くべき結果が出たので、コンパイラ言語・インタプリタ言語をともに学び、<br />
+            必要に応じて使い分けられるようになることは大切だと強く感じました。<br />
 
-        Githubリポジトリは
-        <a
-          href="https://github.com/shin1127/CompareExecutionSpeed"
-          target="_blank"
-          >こちら</a
-        >
-        <br />
+            Githubリポジトリは
+            <a
+              href="https://github.com/shin1127/CompareExecutionSpeed"
+              target="_blank"
+              >こちら</a
+            >
+            <br />
 
-        <br />
-        左の画像がJavaで動作したターミナル上での出力、右がテキストに結果を出力した様子です。<br /><br />
+            <br />
+            左の画像がJavaで動作したターミナル上での出力、右がテキストに結果を出力した様子です。<br /><br />
 
-        <img
-          src="speedTestEx2.png"
-          alt="実行速度比較 例2"
-          width="50%"
-          height="50%"
-        />
-        <img
-          src="speedTestEx1.png"
-          alt="実行速度比較 例1"
-          width="25%"
-          height="25%"
-        />
-        <div id="close6" class="close">
-          閉じる
+            <img
+              src="speedTestEx2.png"
+              alt="実行速度比較 例2"
+              width="50%"
+              height="50%"
+            />
+            <img
+              src="speedTestEx1.png"
+              alt="実行速度比較 例1"
+              width="25%"
+              height="25%"
+            />
+            <div id="close6" class="close">
+              閉じる
+            </div>
+          </section>
         </div>
-      </section>
-
-      <div id="open7" class="open">
-        <h3>ポートフォリオサイト</h3>
       </div>
-      <div id="mask7" class="hidden mask"></div>
-      <section id="modal7" class="modal hidden">
-        <p></p>
-        <h3>ポートフォリオサイト</h3>
-        当ページです。<br />
-        JavaScriptを使ったウェブサイト制作としては処女作です。<br />
-        BootStrapやjQueryなどのライブラリに頼らず、pureなCSS,
-        JavaScriptで書ききった所が特徴です。<br /><br />
-        ボタン処理を複数個実装する際、それに必要なcss,jsファイルの中身が冗長にならないよう、<br />
-        CSSのクラスを使いまわしたり、JavaScriptではforループで処理を行うなど、工夫しています。<br />
 
-        ここで得た大きな学びは、<br />
-        「何も考えずにCSSを書くと雑なソースコードになりすぎ、非常に読みづらいものになってしまう」<br />
-        ということです。<br /><br />
+      <div class="workRow">
+        <div class="work">
+          <div id="open7" class="open">
+            <h3>ポートフォリオサイト</h3>
+          </div>
+          <div id="mask7" class="hidden mask"></div>
+          <section id="modal7" class="modal hidden">
+            <p></p>
+            <h3>ポートフォリオサイト</h3>
+            当ページです。<br />
+            JavaScriptを使ったウェブサイト制作としては処女作です。<br />
+            BootStrapやjQueryなどのライブラリに頼らず、pureなCSS,
+            JavaScriptで書ききった所が特徴です。<br /><br />
+            ボタン処理を複数個実装する際、それに必要なcss,jsファイルの中身が冗長にならないよう、<br />
+            CSSのクラスを使いまわしたり、JavaScriptではforループで処理を行うなど、工夫しています。<br />
 
-        GitHubは
-        <a href="https://github.com/shin1127/myPortfolio" target="_blank"
-          >こちら</a
-        ><br /><br />
+            ここで得た大きな学びは、<br />
+            「何も考えずにCSSを書くと雑なソースコードになりすぎ、非常に読みづらいものになってしまう」<br />
+            ということです。<br /><br />
 
-        デザイン段階から制作したことを強くアピールしたいので、<br />
-        制作に使った初期のデザインカンプを記載します。<br /><br />
-        <img
-          src="designCamp.jpg"
-          alt="デザインカンプ"
-          width="90%"
-          height="90%"
-        />
-        <div id="close7" class="close">
-          閉じる
+            GitHubは
+            <a href="https://github.com/shin1127/myPortfolio" target="_blank"
+              >こちら</a
+            ><br /><br />
+
+            デザイン段階から制作したことを強くアピールしたいので、<br />
+            制作に使った初期のデザインカンプを記載します。<br /><br />
+            <img
+              src="designCamp.jpg"
+              alt="デザインカンプ"
+              width="90%"
+              height="90%"
+            />
+            <div id="close7" class="close">
+              閉じる
+            </div>
+          </section>
         </div>
-      </section>
 
-      <div id="open4" class="open">
-        <h3>グラブルダメージ計算機</h3>
+        <div class="work">
+          <div id="open4" class="open">
+            <h3>グラブルダメージ計算機</h3>
+          </div>
+          <div id="mask4" class="hidden mask"></div>
+          <section id="modal4" class="modal hidden">
+            <p></p>
+            <h3>グラブルダメージ計算機</h3>
+            ソーシャルゲーム「グランブルーファンタジー」で利用するダメージ計算機です。<br />
+
+            GitHubPagesで公開しています。<br /><br />
+
+            <a
+              href="https://shin1127.github.io/grandblueCalculator/"
+              target="_blank"
+              >グラブル奥義上限 計算機(β)</a
+            ><br /><br />
+
+            ラジオボタンやチェックボックスの入力状況を取得し、それに応じた計算処理を行い、返す機能を持ちます。<br />
+            コミュニティのメンバーに「こういうのが欲しかった！」と言ってもらえたので、とても満足しています。<br /><br />
+
+            アピールポイントは「自分でニーズに沿った課題を発見し、それをプログラミング技術によって解決できた」ことです。<br /><br />
+
+            GitHubは
+            <a
+              href="https://github.com/shin1127/grandblueCalculator"
+              target="_blank"
+              >こちら</a
+            ><br /><br />
+
+            <div id="close4" class="close">
+              閉じる
+            </div>
+          </section>
+        </div>
       </div>
-      <div id="mask4" class="hidden mask"></div>
-      <section id="modal4" class="modal hidden">
-        <p></p>
-        <h3>グラブルダメージ計算機</h3>
-        ソーシャルゲーム「グランブルーファンタジー」で利用するダメージ計算機です。<br />
 
-        GitHubPagesで公開しています。<br /><br />
+      <div class="workRow">
+        <div class="work">
+          <div id="open8" class="open">
+            <h3>蔵書管理システム</h3>
+          </div>
+          <div id="mask8" class="hidden mask"></div>
+          <section id="modal8" class="modal hidden">
+            <p></p>
+            <h3>蔵書管理システム（開発途中）</h3>
 
-        <a
-          href="https://shin1127.github.io/grandblueCalculator/"
-          target="_blank"
-          >グラブル奥義上限 計算機(β)</a
-        ><br /><br />
+            所有している書籍を登録/名前などの情報変更/削除が可能なWebアプリケーションを制作しました。<br />
+            JavaScriptのフレームワーク「Express」、RDBである「MySQL」を利用して作成しました。<br />
+            AWSのデータベースサービスとHerokuを連携して、デプロイしています。<br /><br />
 
-        ラジオボタンやチェックボックスの入力状況を取得し、それに応じた計算処理を行い、返す機能を持ちます。<br />
-        コミュニティのメンバーに「こういうのが欲しかった！」と言ってもらえたので、とても満足しています。<br /><br />
+            <a href="https://havingbooks.herokuapp.com/" target="_blank"
+              >蔵書管理システム</a
+            ><br />
+            ※初回表示には時間がかかります。<br /><br />
 
-        アピールポイントは「自分でニーズに沿った課題を発見し、それをプログラミング技術によって解決できた」ことです。<br /><br />
+            Web上で動的なコンテンツを作成するのは今までの学習の中で、最も困難でした。<br /><br />
 
-        GitHubは
-        <a
-          href="https://github.com/shin1127/grandblueCalculator"
-          target="_blank"
-          >こちら</a
-        ><br /><br />
+            SQLは環境構築（特にコンソールで文字化けが起きて直せない、など）のひとつの不具合を直すのに丸一日かかりました。<br />
+            JavaScriptを学ぶ段階においては、文法入門書とフレームワーク入門書の間で、同じ入門書でありながら圧倒的に難易度が異なるため、<br />
+            段階を踏んで知識を深めていくことが難しく、<br />
+            フレームワークを学ぶにあたって、いきなり難しい概念が出てくるなど厳しい状況に何度も陥りました。<br /><br />
 
-        <div id="close4" class="close">
-          閉じる
+            その他にも、Web技術の基礎知識がないまま始めてしまったために<br />
+            「レンダリング」「ルーティング」「リクエスト・レスポンス」<br />
+            そういった概念何もかもが分かりませんでした。<br />
+            挙句の果てには「もはや何がわからないのかさえわからない」状態に陥るなど、ひどい有様でした。<br /><br />
+
+            そのような状況でもなんとか、所属コミュニティの仲間に相談や質問を投げかけたり、<br />
+            グーグル検索をしたり、テキストをなんとか読み進めたりで少しずつ問題を解決していき、<br />
+            デプロイにこぎつけたときの達成感は、正直言葉ではもう表せません。<br /><br />
+
+            そして、このアプリを完成させたときに、<br />
+            「DBからデータが取り出せて、ルーティングがわかるようになったということは、TODOアプリも掲示板も、ブログも、なんでも作れるということじゃないか！」<br />
+            ということに気づき、その瞬間からプログラミング学習が更に楽しくて楽しくてたまらなくなりました。<br /><br />
+
+            GitHubは
+            <a
+              href="https://github.com/shin1127/habingBooksForHerokuPublic"
+              target="_blank"
+              >こちら</a
+            ><br /><br />
+
+            <div id="close8" class="close">
+              閉じる
+            </div>
+          </section>
         </div>
-      </section>
 
-      <div id="open8" class="open">
-        <h3>蔵書管理システム</h3>
+        <div class="work">
+          <div id="open9" class="open">
+            <h3>新規事業開拓の提案</h3>
+          </div>
+          <div id="mask9" class="hidden mask"></div>
+          <section id="modal9" class="modal hidden">
+            <p></p>
+            <h3>新規事業開拓の提案</h3>
+            『時代の変化に合わせた魅力的な新規事業開拓への挑戦』という趣旨のプレゼンテーションを行いました。<br />
+            <strike
+              >PowerPointの使い方を思い出すのが面倒で、どうやったらサボれるかを検討した結果、</strike
+            ><br />
+            Visual Studio
+            Codeの拡張機能『Marp』を用いて、MarkDown記法でスライドを作成しました。<br /><br />
+
+            <a href="showPDF/showSlide.html" target="_blank"
+              >作成スライドとMarkDownソースコード</a
+            ><br /><br />
+
+            <div id="close9" class="close">
+              閉じる
+            </div>
+          </section>
+        </div>
       </div>
-      <div id="mask8" class="hidden mask"></div>
-      <section id="modal8" class="modal hidden">
-        <p></p>
-        <h3>蔵書管理システム（開発途中）</h3>
-
-        所有している書籍を登録/名前などの情報変更/削除が可能なWebアプリケーションを制作しました。<br />
-        JavaScriptのフレームワーク「Express」、RDBである「MySQL」を利用して作成しました。<br />
-        AWSのデータベースサービスとHerokuを連携して、デプロイしています。<br /><br />
-
-        <a href="https://havingbooks.herokuapp.com/" target="_blank"
-          >蔵書管理システム</a
-        ><br />
-        ※初回表示には時間がかかります。<br /><br />
-
-        Web上で動的なコンテンツを作成するのは今までの学習の中で、最も困難でした。<br /><br />
-
-        SQLは環境構築（特にコンソールで文字化けが起きて直せない、など）のひとつの不具合を直すのに丸一日かかりました。<br />
-        JavaScriptを学ぶ段階においては、文法入門書とフレームワーク入門書の間で、同じ入門書でありながら圧倒的に難易度が異なるため、<br />
-        段階を踏んで知識を深めていくことが難しく、<br />
-        フレームワークを学ぶにあたって、いきなり難しい概念が出てくるなど厳しい状況に何度も陥りました。<br /><br />
-
-        その他にも、Web技術の基礎知識がないまま始めてしまったために<br />
-        「レンダリング」「ルーティング」「リクエスト・レスポンス」<br />
-        そういった概念何もかもが分かりませんでした。<br />
-        挙句の果てには「もはや何がわからないのかさえわからない」状態に陥るなど、ひどい有様でした。<br /><br />
-
-        そのような状況でもなんとか、所属コミュニティの仲間に相談や質問を投げかけたり、<br />
-        グーグル検索をしたり、テキストをなんとか読み進めたりで少しずつ問題を解決していき、<br />
-        デプロイにこぎつけたときの達成感は、正直言葉ではもう表せません。<br /><br />
-
-        そして、このアプリを完成させたときに、<br />
-        「DBからデータが取り出せて、ルーティングがわかるようになったということは、TODOアプリも掲示板も、ブログも、なんでも作れるということじゃないか！」<br />
-        ということに気づき、その瞬間からプログラミング学習が更に楽しくて楽しくてたまらなくなりました。<br /><br />
-
-        GitHubは
-        <a
-          href="https://github.com/shin1127/habingBooksForHerokuPublic"
-          target="_blank"
-          >こちら</a
-        ><br /><br />
-
-        <div id="close8" class="close">
-          閉じる
-        </div>
-      </section>
-
-      <div id="open9" class="open">
-        <h3>新規事業開拓の提案</h3>
-      </div>
-      <div id="mask9" class="hidden mask"></div>
-      <section id="modal9" class="modal hidden">
-        <p></p>
-        <h3>新規事業開拓の提案</h3>
-        『時代の変化に合わせた魅力的な新規事業開拓への挑戦』という趣旨のプレゼンテーションを行いました。<br />
-        <strike
-          >PowerPointの使い方を思い出すのが面倒で、どうやったらサボれるかを検討した結果、</strike
-        ><br />
-        Visual Studio
-        Codeの拡張機能『Marp』を用いて、MarkDown記法でスライドを作成しました。<br /><br />
-
-        <a href="showPDF/showSlide.html" target="_blank"
-          >作成スライドとMarkDownソースコード</a
-        ><br /><br />
-
-        <div id="close9" class="close">
-          閉じる
-        </div>
-      </section>
     </article>
-
     <script src="hoge.js"></script>
   </body>
 </html>
