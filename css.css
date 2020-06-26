@@ -27,6 +27,10 @@ img {
   max-width: 95%;
 }
 
+.txtFontSpecial {
+  font-family: "Yellowtail", cursive;
+}
+
 div.headerText {
   margin-top: 100px;
   vertical-align: middle;
@@ -37,8 +41,8 @@ div.headerText {
 }
 
 h2.headline {
-  font-family: cursive;
-  font-size: 250%;
+  font-family: "Lobster", cursive;
+  font-size: 300%;
 }
 
 div.feature {
