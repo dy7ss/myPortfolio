@@ -183,3 +183,21 @@ div.mask.hidden {
 section.modal.hidden {
   transform: translate(0, -2000px);
 }
+
+/* https://saruwakakun.com/html-css/reference/buttons */
+
+.btn-flat-double-border {
+  display: inline-block;
+  background-color: white;
+  padding: 0.5em 1em;
+  margin: 1em;
+  width: 200px;
+  text-decoration: none;
+  color: #4caf50;
+  border: double 4px #4caf50;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.btn-flat-double-border:hover {
+  background: #fffbef;
+}
