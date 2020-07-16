@@ -201,3 +201,7 @@ section.modal.hidden {
 .btn-flat-double-border:hover {
   background: #fffbef;
 }
+
+.redcolor {
+  color: red;
+}
