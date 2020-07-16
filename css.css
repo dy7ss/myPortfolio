@@ -27,6 +27,10 @@ img {
   max-width: 95%;
 }
 
+h1 {
+  margin-top: -40px;
+}
+
 .txtFontSpecial {
   font-family: "Yellowtail", cursive;
 }
@@ -38,7 +42,9 @@ img {
     "MS PGothic", sans-serif;
   text-align: center;
   margin-top: 80px;
+  margin-bottom: 80px;
   font-size: 150%;
+  line-height: 200%;
 }
 
 div.headerText {
@@ -60,20 +66,23 @@ div.feature {
   width: 300px;
 }
 article.featureBlock {
-  background-image: url("y-so-serious-white.png");
+  /* background-image: url("y-so-serious-white.png"); */
+  background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
 }
 article.profile {
-  background-color: white;
+  /* background-color: white; */
+  background-image: url("y-so-serious-white.png");
   padding-top: 50px;
   padding-bottom: 100px;
   text-align: center;
 }
 
 article.skillset {
-  background-color: white;
+  /* background-color: white; */
+  background-image: url("y-so-serious-white.png");
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
@@ -106,14 +115,16 @@ table tr {
 }
 
 article.til {
-  background-image: url("y-so-serious-white.png");
+  /* background-image: url("y-so-serious-white.png"); */
+  background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
 }
 
 article.works {
-  background-color: white;
+  background-image: url("y-so-serious-white.png");
+  /* background-color: white; */
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
