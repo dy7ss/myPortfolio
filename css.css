@@ -8,6 +8,30 @@ header img {
   margin-right: 3%;
   border-radius: 10px;
 }
+
+body {
+  margin: -8px;
+  background-color: #fdfcf5;
+}
+
+img {
+  max-width: 95%;
+}
+
+h1 {
+  margin-top: -40px;
+}
+
+div h3 {
+  text-align: center;
+}
+article p {
+  line-height: 2;
+}
+
+/* class definition about media query
+start */
+
 @media all and (max-width: 1024px) {
   header img {
     width: 100%;
@@ -19,30 +43,36 @@ header img {
   }
 }
 
-body {
-  margin: -8px;
+/* class definition about media query
+end */
+
+/* class definition about background-image or color
+start */
+
+.bg-none {
+  background-color: #fdfcf5;
 }
 
-img {
-  max-width: 95%;
+.bg-img {
+  background-image: url("y-so-serious-white.png");
 }
 
-h1 {
-  margin-top: -40px;
-}
+/* class definition about background-image or color
+end */
 
+/* the class about font of title */
 .txtFontSpecial {
   font-family: "Yellowtail", cursive;
 }
 
-/* https://anyushu.com/web/fonts-osusume/ */
+/* cf: https://anyushu.com/web/fonts-osusume/ */
 .catchphrase {
   font-family: "Lato", "Noto Sans JP", "ヒラギノ角ゴ ProN",
     "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
     "MS PGothic", sans-serif;
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   font-size: 150%;
   line-height: 200%;
 }
@@ -66,27 +96,24 @@ div.feature {
   width: 300px;
 }
 article.featureBlock {
-  /* background-image: url("y-so-serious-white.png"); */
-  background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
 }
 article.profile {
-  /* background-color: white; */
-  background-image: url("y-so-serious-white.png");
   padding-top: 50px;
   padding-bottom: 100px;
   text-align: center;
 }
 
 article.skillset {
-  /* background-color: white; */
-  background-image: url("y-so-serious-white.png");
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
 }
+
+/* class definition about the table in my skill set
+start */
 
 table {
   margin-left: auto;
@@ -114,17 +141,16 @@ table tr {
   padding-right: 3px;
 }
 
+/* class definition about the table in my skill set
+end */
+
 article.til {
-  /* background-image: url("y-so-serious-white.png"); */
-  background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
 }
 
 article.works {
-  background-image: url("y-so-serious-white.png");
-  /* background-color: white; */
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -142,17 +168,12 @@ div.workRow {
 
 div.featureText {
   width: 200px;
-  background-image: url("y-so-serious-white.png");
   padding: 30px;
   margin: auto;
 }
 
-div h3 {
-  text-align: center;
-}
-article p {
-  line-height: 2;
-}
+/* class definition about modal display
+start */
 
 div.open,
 div.close {
@@ -204,6 +225,9 @@ div.mask.hidden {
 section.modal.hidden {
   transform: translate(0, -2000px);
 }
+
+/* class definition about modal display
+end */
 
 /* https://saruwakakun.com/html-css/reference/buttons */
 
