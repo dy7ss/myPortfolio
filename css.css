@@ -1,16 +1,23 @@
 header {
   text-align: center;
   background-color: black;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 header img {
   margin-top: 20px;
-  margin-left: 3%;
-  margin-right: 3%;
+  /* margin-left: 3%;
+  margin-right: 3%; */
   border-radius: 10px;
+}
+.headerSpace {
+  text-align: center;
+  background-color: black;
 }
 
 body {
   margin: -8px;
+  padding: 8px;
   background-color: #fdfcf5;
 }
 
@@ -120,6 +127,7 @@ table {
   margin-right: auto;
   text-align: left;
   vertical-align: top;
+  display: inline-block;
 }
 table th,
 table td {
@@ -133,7 +141,8 @@ table th {
 }
 table td {
   text-align: center;
-  padding: 5px;
+  /* padding: 5px; */
+  height: 100px;
 }
 
 table tr {
