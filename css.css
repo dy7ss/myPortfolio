@@ -1,3 +1,5 @@
+/* common */
+
 header {
   text-align: center;
   background-color: black;
@@ -6,8 +8,6 @@ header {
 }
 header img {
   margin-top: 20px;
-  /* margin-left: 3%;
-  margin-right: 3%; */
   border-radius: 10px;
 }
 .headerSpace {
@@ -36,9 +36,6 @@ article p {
   line-height: 2;
 }
 
-/* class definition about media query
-start */
-
 @media all and (max-width: 1024px) {
   header img {
     width: 100%;
@@ -50,11 +47,7 @@ start */
   }
 }
 
-/* class definition about media query
-end */
-
-/* class definition about background-image or color
-start */
+/* background-image or color */
 
 .bg-none {
   background-color: #fdfcf5;
@@ -64,10 +57,12 @@ start */
   background-image: url("y-so-serious-white.png");
 }
 
-/* class definition about background-image or color
-end */
+/* font */
 
-/* the class about font of title */
+.redcolor {
+  color: red;
+}
+
 .txtFontSpecial {
   font-family: "Yellowtail", cursive;
 }
@@ -98,10 +93,19 @@ h2.headline {
   font-size: 300%;
 }
 
+/* block */
+
 div.feature {
   display: inline-block;
   width: 300px;
 }
+
+div.featureText {
+  width: 200px;
+  padding: 30px;
+  margin: auto;
+}
+
 article.featureBlock {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -118,38 +122,6 @@ article.skillset {
   padding-bottom: 100px;
   text-align: center;
 }
-
-/* class definition about the table in my skill set
-start */
-
-table {
-  text-align: left;
-  vertical-align: top;
-  display: inline-block;
-}
-table th,
-table td {
-  border: solid 1px black;
-}
-table th {
-  text-align: center;
-  background-color: #99ff99;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-table td {
-  text-align: center;
-  /* padding: 5px; */
-  height: 100px;
-}
-
-table tr {
-  vertical-align: center;
-  padding-right: 3px;
-}
-
-/* class definition about the table in my skill set
-end */
 
 article.til {
   padding-top: 100px;
@@ -173,14 +145,40 @@ div.workRow {
   display: block;
 }
 
-div.featureText {
-  width: 200px;
-  padding: 30px;
-  margin: auto;
+/* the table in my skill set */
+
+table {
+  text-align: left;
+  vertical-align: top;
+  display: inline-block;
+}
+table tr,
+table th,
+table td {
+  margin: 0;
+  padding: 0;
+}
+table th,
+table td {
+  border: solid 1px black;
+}
+table th {
+  text-align: center;
+  background-color: #99ff99;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+table td {
+  text-align: center;
+  height: 100px;
 }
 
-/* class definition about modal display
-start */
+table tr {
+  vertical-align: center;
+  padding-right: 3px;
+}
+
+/* modal display */
 
 div.open,
 div.close {
@@ -233,10 +231,8 @@ section.modal.hidden {
   transform: translate(0, -2000px);
 }
 
-/* class definition about modal display
-end */
-
-/* https://saruwakakun.com/html-css/reference/buttons */
+/* button */
+/* cf: https://saruwakakun.com/html-css/reference/buttons */
 
 .btn-flat-double-border {
   display: inline-block;
@@ -252,8 +248,4 @@ end */
 }
 .btn-flat-double-border:hover {
   background: #fffbef;
-}
-
-.redcolor {
-  color: red;
 }
