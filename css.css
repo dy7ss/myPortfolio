@@ -1,8 +1,7 @@
 header {
   text-align: center;
   background-color: black;
-  margin-left: -8px;
-  margin-right: -8px;
+  margin: 0px;
 }
 header img {
   margin-top: 20px;
@@ -16,8 +15,8 @@ header img {
 }
 
 body {
-  margin: -8px;
-  padding: 8px;
+  margin: 0;
+  padding: 0;
   background-color: #fdfcf5;
 }
 
@@ -123,8 +122,6 @@ article.skillset {
 start */
 
 table {
-  margin-left: auto;
-  margin-right: auto;
   text-align: left;
   vertical-align: top;
   display: inline-block;
