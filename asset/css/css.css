@@ -93,7 +93,7 @@ h2.headline {
   font-size: 300%;
 }
 
-/* block */
+/* blocks */
 
 div.feature {
   display: inline-block;
@@ -179,9 +179,10 @@ table tr {
 }
 
 /* modal display */
+/* cf. https://shogo-log.com/modal-javascript/ */
 
-div.open,
-div.close {
+.open,
+.close {
   cursor: pointer;
   width: 250px;
   border: 1px solid #ccc;
@@ -193,12 +194,12 @@ div.close {
   color: white;
 }
 
-div.open:hover,
-div.open:hover {
+.open:hover,
+.close:hover {
   background: #55c500;
 }
 
-div.mask {
+.mask {
   background: rgba(0, 0, 0, 0.4);
   position: fixed;
   top: 0;
@@ -208,7 +209,7 @@ div.mask {
   z-index: 1;
 }
 
-section.modal {
+.modal {
   background: #fff;
   color: #555;
   width: 70%;
@@ -225,15 +226,15 @@ section.modal {
   max-height: 80%;
 }
 
-section.modal p {
+.modal p {
   margin: 0 0 20px;
 }
 
-div.mask.hidden {
+.mask.hidden {
   display: none;
 }
 
-section.modal.hidden {
+.modal.hidden {
   transform: translate(0, -2000px);
 }
 
