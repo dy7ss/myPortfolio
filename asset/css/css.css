@@ -192,6 +192,12 @@ div.close {
   background: #4caf50;
   color: white;
 }
+
+div.open:hover,
+div.open:hover {
+  background: #55c500;
+}
+
 div.mask {
   background: rgba(0, 0, 0, 0.4);
   position: fixed;
